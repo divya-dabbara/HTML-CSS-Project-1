@@ -1,0 +1,126 @@
+@media screen and (max-width:768px){
+      .el41{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+      }
+      .el4b{
+        margin-left: 20%;
+        margin-right:10%;
+        display: flex;
+        flex-direction: column;
+      }
+}
+@media screen and (max-width:576px) {
+  *{
+    font-size: small;
+  }
+  html{
+    font-size: small;
+  }
+  
+}
+* {
+    box-sizing: border-box;
+    font-size: large;
+  }
+  html{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+  nav {
+    width: 100%;
+    top: 0%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    font-size: x-large;
+  }
+  h1{
+    font-size: xx-large;
+  }
+  h2{
+    font-size: larger;
+  }
+  
+  .el1,
+  .el2,
+  .el3,
+  .el4 {
+    background-image: url("./tm-astro-bg.jpg");
+    background-size:contain;
+    height: 100%;
+    width:100vw;
+    color: white;
+  }
+  
+
+  .el11 {
+    margin-top: 5%;
+    padding: 10px;
+    display: flex;
+  }
+  .el21{
+    margin-top: 5%;
+    padding: 10px;
+    display: flex;
+    gap:15px;
+  }
+  .el2a{
+    margin-left: 20px;
+    justify-content: space-evenly;
+  }
+  .el31{
+    margin-left:10%;
+    margin-right:5%;
+    padding: 10px;
+    display: flex;
+  }
+  .el3a{
+    background-image: url(./tm-astro-bg.jpg);
+    background-size: cover;
+    background-blend-mode:saturation;
+    z-index: 3;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+    padding: 10px;
+    opacity: 0.7;
+  }
+  .el41{
+    padding: 5px;
+    display: flex;
+  }
+  .el4a{
+    margin-left:20%;
+  }
+  .el4b{
+    margin-left: 20%;
+    margin-right:10%;
+    display: flex;
+    flex-direction: column;
+  }
+  .google-map {
+ padding-bottom: 50%;
+ position: relative;
+}
+
+.google-map iframe {
+ height: 100%;
+ width: 100%;
+ left: 0;
+ top: 0;
+ position: absolute;
+} 
+#footer{
+  margin-bottom: 20%;
+  margin-left: 10%;
+}
